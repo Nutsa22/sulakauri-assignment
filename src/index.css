@@ -20,6 +20,7 @@ body{
 ul{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
 
@@ -89,10 +90,9 @@ main{
  .box {
     display: flex;
     flex-direction: column;
-    height: 500px;
     width: 100%;
     background-color: whitesmoke;
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
     
 
@@ -211,10 +211,10 @@ p{
 .autorization-section{
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 0;
+    top: 100px;
     width: 100vw;
     height: 100vh;
-    display: none;
+    left: 0;
 }
 
 .activeTwo{
@@ -230,6 +230,7 @@ p{
     width: 100vw;
     height: 100vh;
     justify-content: right;
+    top: 100px;
 }
 .login-section{
     max-width: 550px;
@@ -238,7 +239,6 @@ p{
     display: grid;
     position: absolute;
     right: 0;
-    top: 0;
 }
 .login {
     display: flex;

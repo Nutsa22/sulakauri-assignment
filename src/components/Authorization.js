@@ -14,7 +14,7 @@ export default function AuthorizationSection(){
                 {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
             <nav className={`autorization-section ${isOpen ? "open" : "closed"}`}>
-        <div className="autorization-section">
+        <div>
   <div className="login-section">
     <div className="login">
       <button className="login-btn">ავტორიზაცია</button>
