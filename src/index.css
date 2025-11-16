@@ -1,13 +1,474 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    border-color: gainsboro;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+
+}
+input{
+    background-color: rgb(217, 215, 215);
+    border: rgb(218, 213, 213);
+    border-radius: 20px;
+    height: 8px;
+    padding: 25px;
+    width: 550px;
+    font-size: 40;
+    color: gray;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    border: 10px;
+}
+.img-container img{
+    width: 250px;
+}
+.cover{
+    /* width: 100%; */
+}
+.cover img{
+    border-radius: 5%;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    /* max-height: 500px; */
+}
+header{
+    padding: 0 60px;
+}
+button{
+    border: 20px;
+    border-radius: 5px;
+    background-color: brown;
+    height: 45px;
+    width: 150px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+main{
+    padding: 0 60px;
+    margin-bottom: 50px;
+}
+ .box div {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+} 
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+    max-width: fit-content;
+}
+ .box {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+    width: 250px;
+    border-radius: 10px;
+    
+
+ } 
+ .box-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+    max-width: fit-content;
+ }
+
+
+ .box:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scaley(1.2);
+    transition: 0.1s; 
+ }
+.img2{
+    display: flex;
+    height: auto;
+    width: 100%;
+} 
+.product-section{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+h3{
+    border: 20px;
+    background-color: #191f35;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100px;
+    color: aliceblue;
+
+}
+.search{
+    position: relative;
+}
+.search i{
+ position: absolute;
+ right: 20px;
+ top: 40%;
+}  
+
+h2{
+   margin: 36px 0;
+}
+.footer{
+    height: 100%;
+    
+    background-color: #191f35;
+}
+.footer-links{
+    display: flex;
+}
+.footer-container{
+    padding: 30px 60px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    max-width: 400px;
+    background-color: whitesmoke;
+    /* width: 250px; */
+    background-color: #191f35;
+    
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: aliceblue;
+}
+h4{
+    color: antiquewhite;
+    display: grid;
+    text-align: center;
+}
+p{
+    color: antiquewhite;
+}
+.footer-input{
+    width: 200px;
+}
+.footer-section-logo{
+    margin: 20px;
+}
+.burger-menu-btn{
+    display: none;
+}
+.mobile-nav{
+    display: none;
+}
+
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.autorization-section{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.activeTwo{
+    display: block;
+} 
+
+.product-price{
+    color: brown;
+}
+
+.autorization-section{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    justify-content: right;
+}
+.login-section{
+    max-width: 550px;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: grid;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    
+}
+
+.login-btn, .registration{
+    border: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 200px;
+    font-weight: bold;
+    font-size: large;
+    color: brown;
+    border-bottom: 1px solid black;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.auto-btn-two{
+    border: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 55px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: brown;
+    color: white;
+}
+.forgot-btn{
+    border: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 55px;
+    font-weight: bold;
+    font-size: medium;
+    background-color:whitesmoke;
+    color: brown;
+}
+.btn{
+    display: flex;
+    justify-content: center
+}
+.social-btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.google-btn, .facebook-btn{
+    border: 20px;
+    border-radius: 15px;
+    width: auto;
+    height: 60px;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 10px;
+}
+.google-btn{
+    color: #191f35b3;
+    background-color: #c9cbcf;
+    margin: 0 60px;;
+}
+.facebook-btn{
+    color: white;
+    background-color: #1877f2;
+    margin: 0 60px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 550px;
+}
+.container p{
+    color: black;
+}
+.container label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.container input{
+    height: 30px;
+    font-size: medium;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    max-width: 400px;
+}
+.author-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    main, header{
+        padding: 0 30px;
+    }
+    .footer-container{
+        padding: 30px;
+        width: auto;
+    }
+    .nav .nav-link, .search{
+        display: none;
+        
+        flex-direction: column;
+    }
+    
+    .nav-bar ul {
+        flex-direction: column;
+    }
+    .nav-bar{
+        display: block;
+    }
+    .subscribe {
+        margin: 0 auto;
+    }
+    .box{
+    height: 450px;
+    max-width: 200px;
+    margin: 10px 30px;
+    width: auto;
+}
+.burger-menu-btn{
+    display: inline-block;
+    margin-left: auto;
+    
+}
+.cover img{
+    width: fit-content;
+    object-fit: cover;
+}
+.footer-container{
+    display: block;
+    /* float: right; */
+
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.footer-section-logo  {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.nav{
+    display: block
+}
+.nav-bar{
+    display: none;
+}
+  .logo-burger{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+}
+.active{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mobile-nav ul{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(75, 24, 24);
+    color: whitesmoke;
+}
+.mobile-nav{
+    width: 100%;
+    position:absolute;
+    top: 150px
+}
+main{
+    height: auto;
+}
+.open{
+    display: block;
+}
+.closed{
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    ul {
+        flex-direction: column;
+    }
+    .box{
+        max-width: 50%;
+        max-width: initial;
+        margin: inherit 20px;
+        flex: 1;    
+    }
+}
+@media screen and (max-width: 360px) {
+    ul{
+        flex-direction: column;
+        display: none;
+    }   
+    .box{
+        width: 100%;
+    }
 }

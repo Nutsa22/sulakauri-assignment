@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "title": "დოგმენი – რწყილთა ბატონი (წიგნი მეხუთე)",
+        "author": "დეივ პილკი",
+        "price": 14.90,
+        "imageUrl": "https://sulakauri.ge/uploads/2024/10/dogmeni-5-rtsqhiltha-batoni.webp"
+    },
+    {
+        "id": 2,
+        "title": "კომპლექტი: კობო აბეს “დაკარგული ქალაქის” ტრილოგია",
+        "author": "კობო აბე",
+        "price": 29.22,
+        "imageUrl": "https://sulakauri.ge/uploads/2025/10/qali-qvishashi-skhvisi-sakhe-damtsvari-ruka.png"
+    },
+    {
+        "id": 3,
+        "title": "საოცრებათა ქვეყანა და სამყაროს დასასრული",
+        "author": "ჰარუკი მურაკამი",
+        "price": 29.99,
+        "imageUrl": "https://sulakauri.ge/uploads/2024/10/saotsrebatha-qveqhana-da-samqharos-dasasruli.new_.webp"
+    },
+    {
+        "id": 4,
+        "title": "მეორე სქესი - სინამდვილე და მითები",
+        "author": "სიმონ დე ბოვუარი",
+        "price": 29.90,
+        "imageUrl": "https://sulakauri.ge/uploads/2024/10/meore-sqesi-sinamdvile-da-mithebi-tsigni-pirveli.new_.webp"
+    },
+    {
+        "id": 5,
+        "title": "ჩემი დასვენებისა და განტვირთვის წელიწადი",
+        "author": "ოტესა მოშფეგი",
+        "price": 19.90,
+        "imageUrl": "https://sulakauri.ge/uploads/2024/10/chemi-dasvenebisa-da-gantvirthvis-tselitsadi.new_.webp"
+    },
+    {
+        "id": 6,
+        "title": "მოგზაურობა ღამის დასალიერში",
+        "author": "ლუი-ფერდინანდ სელინი",
+        "price": 29.99,
+        "imageUrl": "https://sulakauri.ge/uploads/2024/10/mogzauroba-ghamis-dasaliershi.webp"
+    },
+    {
+        "id": 7,
+        "title": "ლუბლინელი მაგი",
+        "author": "ისააკ ბაშევის ზინგერი",
+        "price": 19.90,
+        "imageUrl": "https://sulakauri.ge/uploads/2024/10/mogzauroba-ghamis-dasaliershi.webp"
+    },
+    {
+        "id": 8,
+        "title": "ნავიგატორი",
+        "author": "ლაშა ბუღაძე",
+        "price": 5.00,
+        "imageUrl": "https://sulakauri.ge/uploads/2023/11/navigatori-1.webp"
+    },
+    {
+        "id": 9,
+        "title": "ბერძნული ცივილიზაცია – გმირთა ეპოქიდან არქაიკამდე",
+        "author": "რისმაგ გორდეზიანი",
+        "price": 10.50,
+        "imageUrl": "https://sulakauri.ge/uploads/2023/11/berdznuli-tsivilizatsia-1.webp"
+    },
+    {
+        "id": 10,
+        "title": "ჩინური დღიური",
+        "author": "კოკა არჩვაძე",
+        "price": 7.90,
+        "imageUrl": "https://sulakauri.ge/uploads/2023/11/chinuri-dghiuri.webp"
+        
+    },
+    {
+        "id": 11,
+        "title": "სოციოლოგია – ძალიან მოკლე შესავალი",
+        "author": "სტივ ბრიუსი",
+        "price": 10.90,
+        "imageUrl": "https://sulakauri.ge/uploads/2023/11/dzalian-mokle-shesavali-sotsiologia.webp"
+    },
+    {
+        "id": 12,
+        "title": "მზე, მთვარე და პურის ყანა",
+        "author": "თემურ ბაბლუანი",
+        "price": 20.99,
+        "imageUrl": "https://sulakauri.ge/uploads/2023/11/mze-mthvare-da-puris-qhana.webp"
+    }
+]
